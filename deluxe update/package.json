@@ -1,0 +1,16 @@
+{
+  "name": "deluxe-real-estate",
+  "version": "3.0.0",
+  "description": "De Luxe Real Estate – faqe interneti me panel administrimi, API dhe databazë SQLite",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "dev": "node --env-file-if-exists=.env --watch src/server.js",
+    "seed": "node --env-file-if-exists=.env src/seed.js --reset"
+  },
+  "license": "UNLICENSED"
+}
